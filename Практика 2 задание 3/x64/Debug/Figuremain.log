@@ -1,0 +1,6 @@
+﻿  Figure.cpp
+C:\Users\marke\source\repos\Технологии 2 практика задание 1\Figuremain\Figure.cpp(6,20): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+C:\Users\marke\source\repos\Технологии 2 практика задание 1\Figuremain\Figure.cpp(9,152): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  Figuremain.cpp
+  Создание кода...
+  Figuremain.vcxproj -> C:\Users\marke\source\repos\Технологии 2 практика задание 1\Figuremain\x64\Debug\Figuremain.exe
