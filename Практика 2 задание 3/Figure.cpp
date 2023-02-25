@@ -1,6 +1,7 @@
 #include "Figure.h"
 #include <iostream>
 #include <cmath>
+#include <setlocale>
 using namespace std;
     float figure::S() {
         return(0.5 * abs((x1 - x2) * (y1 + y2) + (x2 - x3) * (y2 + y3) + (x3 - x4) * (y3 + y4) + (x4 - x1) * (y4 + y1)));
@@ -19,24 +20,24 @@ using namespace std;
         y4 = Y4;
     }
     void figure::show() {
-        cout << "Ïëîùàäü = " << S() << endl << "Ïåðèìåòð = " << P() << endl;
+        cout << "ÃÃ«Ã®Ã¹Ã Ã¤Ã¼ = " << S() << endl << "ÃÃ¥Ã°Ã¨Ã¬Ã¥Ã²Ã° = " << P() << endl;
         if (is_prug() == true) {
-            cout << "Ïðÿìîóãîëüíèê" << endl;
+            cout << "ÃÃ°Ã¿Ã¬Ã®Ã³Ã£Ã®Ã«Ã¼Ã­Ã¨Ãª" << endl;
         }
         if (is_square() == true and is_prug() == true) {
-            cout << "Êâàäðàò" << endl;
+            cout << "ÃŠÃ¢Ã Ã¤Ã°Ã Ã²" << endl;
         }
         if (is_romb() == true) {
-            cout << "Ðîìá" << endl;
+            cout << "ÃÃ®Ã¬Ã¡" << endl;
         }
         if (is_square() == true) {
-            cout << "Âñå ñòîðîíû ðàâíû" << endl;
+            cout << "Ã‚Ã±Ã¥ Ã±Ã²Ã®Ã°Ã®Ã­Ã» Ã°Ã Ã¢Ã­Ã»" << endl;
         }
         if (is_in_circle() == true) {
-            cout << "Ìîæíî âïèñàòü â îêðóæíîñòü" << endl;
+            cout << "ÃŒÃ®Ã¦Ã­Ã® Ã¢Ã¯Ã¨Ã±Ã Ã²Ã¼ Ã¢ Ã®ÃªÃ°Ã³Ã¦Ã­Ã®Ã±Ã²Ã¼" << endl;
         }
         if (is_out_circle() == true) {
-            cout << "Ìîæíî îïèñàòü âîêðóã îêðóæíîñòè" << endl;
+            cout << "ÃŒÃ®Ã¦Ã­Ã® Ã®Ã¯Ã¨Ã±Ã Ã²Ã¼ Ã¢Ã®ÃªÃ°Ã³Ã£ Ã®ÃªÃ°Ã³Ã¦Ã­Ã®Ã±Ã²Ã¨" << endl;
         }
     }
     bool figure::is_prug() {
