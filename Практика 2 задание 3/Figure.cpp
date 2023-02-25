@@ -1,7 +1,7 @@
 #include "Figure.h"
 #include <iostream>
 #include <cmath>
-#include <setlocale>
+#include <locale>
 using namespace std;
 setlocale(LC_ALL,"Russian");
     float figure::S() {
