@@ -2,7 +2,7 @@
 #include <cmath>
 #include <locale>
 #include "eq2.h"
-    eq2::eq2(double a1, double b1, double c1) {//Конструктор
+    eq2::eq2(double a1, double b1, double c1) {
         a = a1;
         b = b1;
         c = c1;
@@ -19,19 +19,19 @@
             double x1, x2;
             x1 = (-b + sqrt(D)) / (2 * a);
             x2 = (-b - sqrt(D)) / (2 * a);
-            cout << "Первый корень x1 = " << x1 << endl;
-            cout << "Второй корень x2 = " << x2 << endl;
+            cout << "ГЏГҐГ°ГўГ»Г© ГЄГ®Г°ГҐГ­Гј x1 = " << x1 << endl;
+            cout << "Г‚ГІГ®Г°Г®Г© ГЄГ®Г°ГҐГ­Гј x2 = " << x2 << endl;
             return x1;
             return x2;
         }
         else if (D == 0) {
             double x1;
             x1 = (-b / (2 * a));
-            cout << "Единственный корень x = " << x1 << endl;
+            cout << "Г…Г¤ГЁГ­Г±ГІГўГҐГ­Г­Г»Г© ГЄГ®Г°ГҐГ­Гј x = " << x1 << endl;
             return x1;
         }
         else {
-            cout << "Корней нет" << endl;
+            cout << "ГЉГ®Г°Г­ГҐГ© Г­ГҐГІ" << endl;
             return 0;
         }
     }
